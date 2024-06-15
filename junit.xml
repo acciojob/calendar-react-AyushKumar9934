@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="9" failures="9" time="2.038">
+  <testsuite name="Rendering Test. " errors="0" failures="9" skipped="0" timestamp="2022-10-13T11:23:27" time="1.551" tests="9">
+    <testcase classname="Rendering Test.  Calendar heading exists" name="Rendering Test.  Calendar heading exists" time="0.042">
+      <failure>Error: Method “text” is meant to be run on 1 node. 0 found instead.
+    at ReactWrapper.single (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/enzyme/src/ReactWrapper.js:1168:13)
+    at ReactWrapper.text (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/enzyme/src/ReactWrapper.js:629:17)
+    at Object.&lt;anonymous&gt; (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:17:20)
+    at Object.asyncJestTest (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Rendering Test.  Rendering correct year and Month in respective tags" name="Rendering Test.  Rendering correct year and Month in respective tags" time="0.004">
+      <failure>TypeError: Cannot read property &apos;value&apos; of null
+    at Object.&lt;anonymous&gt; (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:22:12)
+    at Object.asyncJestTest (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Rendering Test.  Should render table with proper binding of ids" name="Rendering Test.  Should render table with proper binding of ids" time="0.002">
+      <failure>Error: Method “text” is meant to be run on 1 node. 0 found instead.
+    at ReactWrapper.single (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/enzyme/src/ReactWrapper.js:1168:13)
+    at ReactWrapper.text (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/enzyme/src/ReactWrapper.js:629:17)
+    at Object.&lt;anonymous&gt; (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:36:19)
+    at Object.asyncJestTest (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Functionality Testing.  Should update the table on changing the year" name="Functionality Testing.  Should update the table on changing the year" time="0.005">
+      <failure>Error: Unable to fire a &quot;dblclick&quot; event - please provide a DOM element.
+    at createEvent (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:34:11)
+    at Function.createEvent.&lt;computed&gt; [as dblClick] (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:119:38)
+    at Function.fireEvent.&lt;computed&gt; [as dblClick] (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:124:68)
+    at Function.dblClick (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/react/dist/fire-event.js:18:52)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:69:19
+    at batchedUpdates$1 (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at Object.&lt;anonymous&gt; (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:67:5)
+    at Object.asyncJestTest (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Functionality Testing.  Should update the table on changing the month" name="Functionality Testing.  Should update the table on changing the month" time="0.001">
+      <failure>Error: Unable to fire a &quot;change&quot; event - please provide a DOM element.
+    at createEvent (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:34:11)
+    at Function.createEvent.&lt;computed&gt; [as change] (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:119:38)
+    at Function.fireEvent.&lt;computed&gt; [as change] (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:124:68)
+    at Function.change (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/react/dist/fire-event.js:18:52)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:121:17
+    at batchedUpdates$1 (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at Object.&lt;anonymous&gt; (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:120:5)
+    at Object.asyncJestTest (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Functionality Testing.  Should update the table on clicking the previous month button" name="Functionality Testing.  Should update the table on clicking the previous month button" time="0.001">
+      <failure>Error: Unable to fire a &quot;click&quot; event - please provide a DOM element.
+    at createEvent (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:34:11)
+    at Function.createEvent.&lt;computed&gt; [as click] (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:119:38)
+    at Function.fireEvent.&lt;computed&gt; [as click] (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:124:68)
+    at Function.click (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/react/dist/fire-event.js:18:52)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:164:17
+    at batchedUpdates$1 (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at Object.&lt;anonymous&gt; (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:162:5)
+    at Object.asyncJestTest (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Functionality Testing.  Should update the table on clicking the next month button" name="Functionality Testing.  Should update the table on clicking the next month button" time="0.001">
+      <failure>Error: Unable to fire a &quot;click&quot; event - please provide a DOM element.
+    at createEvent (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:34:11)
+    at Function.createEvent.&lt;computed&gt; [as click] (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:119:38)
+    at Function.fireEvent.&lt;computed&gt; [as click] (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:124:68)
+    at Function.click (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/react/dist/fire-event.js:18:52)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:208:17
+    at batchedUpdates$1 (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at Object.&lt;anonymous&gt; (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:206:5)
+    at Object.asyncJestTest (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Functionality Testing.  Should update the table on clicking the next year button" name="Functionality Testing.  Should update the table on clicking the next year button" time="0.001">
+      <failure>Error: Unable to fire a &quot;click&quot; event - please provide a DOM element.
+    at createEvent (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:34:11)
+    at Function.createEvent.&lt;computed&gt; [as click] (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:119:38)
+    at Function.fireEvent.&lt;computed&gt; [as click] (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:124:68)
+    at Function.click (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/react/dist/fire-event.js:18:52)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:252:17
+    at batchedUpdates$1 (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at Object.&lt;anonymous&gt; (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:250:5)
+    at Object.asyncJestTest (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+    <testcase classname="Functionality Testing.  Should update the table on clicking the previous year button" name="Functionality Testing.  Should update the table on clicking the previous year button" time="0.001">
+      <failure>Error: Unable to fire a &quot;click&quot; event - please provide a DOM element.
+    at createEvent (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:34:11)
+    at Function.createEvent.&lt;computed&gt; [as click] (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:119:38)
+    at Function.fireEvent.&lt;computed&gt; [as click] (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/dom/dist/events.js:124:68)
+    at Function.click (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/@testing-library/react/dist/fire-event.js:18:52)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:294:17
+    at batchedUpdates$1 (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
+    at act (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
+    at Object.&lt;anonymous&gt; (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/src/__tests__/App.test.js:292:5)
+    at Object.asyncJestTest (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:106:37)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (/Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:28:19)
+    at /Users/abhishek_verma/Desktop/accio/junit-github-action/jest testing/calendar-react/Calendar-React-BoilerPlate/node_modules/jest-jasmine2/build/queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
